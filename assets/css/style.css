@@ -1,5 +1,7 @@
 /* imported google typo */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* 
+mobile first approach */
 
 /* Changing/deleting default css properties */
 * {
@@ -97,3 +99,18 @@ footer {
     background-color: blueviolet;
     color: aliceblue;
 }
+
+/* media-query for tablets+  */
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    
+}
+
+    
