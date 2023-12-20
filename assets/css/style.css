@@ -162,8 +162,17 @@ hr {
     width: 90vw;
     /* circle shape */
     border-radius: 50%;
-    background: url(../img/reasons-image.webp) no-repeat center center/cover;
+    background: url(../img/reasons-image.webp) no-repeat top center/cover;
     margin-bottom: 20px;
+    /* for not beeing to big on bigger screens: */
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* footer */
 #social-networks {
@@ -210,6 +219,23 @@ hr {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+    /* reasons section */
+    #benefits-physical, #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #benefits-physical, #benefits-mental {
+
+    #benefits-physical > div, #benefits-mental >div {
+        width: 75%;
     }
 }
 
