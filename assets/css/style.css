@@ -26,6 +26,9 @@ header {
     width: 100%;
     /* horizontal offset / vertical offset / blur / color */
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -67,8 +70,23 @@ nav {
     padding-left: 1rem;
     /* nav bar items hidden before user click */
     display: none;
+    /* changing bc of using flexbox */
+    /* top of element will start at bottom of parent */
+    top: 100%;
 }
 
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 main {
     background-color: deepskyblue;
     flex: 1 0 auto;
