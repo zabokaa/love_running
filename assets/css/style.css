@@ -46,6 +46,15 @@ h1 {
     font-size: 110%;
 }
 
+/* list items inside the menu */
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 main {
     background-color: deepskyblue;
     flex: 1 0 auto;
