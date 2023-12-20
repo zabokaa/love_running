@@ -18,7 +18,14 @@ body {
 }
 
 header {
-    background-color: pink;
+    background-color: #ffffff; 
+    padding: 0 1rem;
+    position: fixed;
+    /* to be layered on top */
+    z-index: 99;
+    width: 100%;
+    /* horizontal offset / vertical offset / blur / color */
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
