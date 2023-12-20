@@ -90,6 +90,7 @@ nav {
 main {
     background-color: deepskyblue;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 footer {
