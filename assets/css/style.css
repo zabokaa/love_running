@@ -26,6 +26,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/* want to hide but still visible f search engines */
+.hidden-heading {
+    display: none;
+}
 header {
     background-color: #ffffff; 
     padding: 0 1rem;
