@@ -203,6 +203,20 @@ main {
 #times h3 {
     color: #afafaf;
 }
+
+/* GALLERY page */
+#photos img {
+    width: 100%;
+    /* so the alt text stays readable */
+    line-height: 1em;
+}
+
+#photos {
+    /* to remove white space inbetween pics */
+    line-height: 0;
+}
+
+
 /* footer */
 #social-networks {
     text-align: center;
