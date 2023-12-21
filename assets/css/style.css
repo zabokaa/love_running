@@ -221,7 +221,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-#signup {
+#sign-up {
     background: url('../img/signup-image.webp') no-repeat center center/cover;
     background-size: cover;
     background-position: 75%;
@@ -344,6 +344,28 @@ main {
     /* gallery */
     #photos {
         column-count: 3;
+    }
+
+    /* signup */
+    #sign-up {
+        position: relative;
+        background-position: central;
+    }
+
+    #signup-form {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        max-width: 400px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
