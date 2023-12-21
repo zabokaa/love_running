@@ -349,7 +349,7 @@ main {
     /* signup */
     #sign-up {
         position: relative;
-        background-position: central;
+        background-position: center;
     }
 
     #signup-form {
