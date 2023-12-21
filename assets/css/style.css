@@ -231,6 +231,16 @@ main {
     padding: 5%;
     color:#3a3a3a;
 }
+
+/* media-query large or landscape pics 576+ px */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count:2;
+        /* fixing the gap */
+        column-gap: 0;
+    }
+}
+
 /* media-query for tablets+  */
 @media screen and (min-width: 768px) {
     /* header */
